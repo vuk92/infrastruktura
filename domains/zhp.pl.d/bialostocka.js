@@ -27,7 +27,7 @@ D_EXTEND('zhp.pl',
     //h. suwałki
         CNAME('*.suwalki', 'suwalki.zhp.pl.'),
         A('suwalki', '79.96.169.242'),
-        Ms365_Subdomain('suwalki', 'zhp.pl') // MS365-32120
+        Ms365_Subdomain('suwalki', 'zhp.pl'), // MS365-32120
     //h. wschodniomazowiecki w zambrowie
-        //brak
+        Ms365_Subdomain('wschodniomazowiecki', 'zhp.pl')
 );
